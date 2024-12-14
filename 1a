@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h1 style="background-color: chartreuse;">LISTS</h1>
+    
+    <!-- <select name="choose" id="he">
+        <option value="">choose</option>
+        <option value="">delhi</option>
+        <option value="">agra</option>
+    </select> -->
+    <!-- <input type="text" placeholder=""> -->
+    <div>
+        <h2>Unordered List</h2>
+        <ul>
+            <li>CSE</li>
+            <li>CSBS</li>
+            <li>MECH</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Ordered List</h2>
+        <div>
+
+            <h4><u>Rankings</u></h5>
+                <ol>
+                    <li>VITB</li>
+                    <li>SRM</li>
+                    <li>SRKR</li>
+                </ol>
+            </div>
+    </div>
+
+    <div>
+        <h2>Nested List</h2>
+        <ul>
+            <li>I Year</li>
+            <ul>
+                <li>Section-A</li>
+                <li>Section-B</li>
+                <li>Section-C</li>
+            </ul>
+            <li>II Year</li>
+            <ul>
+                <li>Section-A</li>
+                <li>Section-B</li>
+            </ul>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Ordered List Inside an Unordered List</h2>
+        <ul>
+            <li>Programming Languages</li>
+            <ol>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C++</li>
+            </ol>
+
+            <li>Databases</li>
+            <ol>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+            </ol>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Definition List </h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language - the standard markup language for creating web pages.</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Stylesheet - used for styling HTML elements.</dd>
+            <dt>JavaScript</dt>
+            <dd>A programming language used to create dynamic and interactive web content.</dd>
+        </dl>
+    </div>
+
+</body>
+</html>
