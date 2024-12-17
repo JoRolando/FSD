@@ -14,5 +14,7 @@
     <p>Visit the <a href="https://www.wikipedia.org/" target="_blank">wikipedia</a></p>
     <h1>Open Link in a Parent frame</h1>
     <p><a href="https://www.wikipedia.org/" target="_parent">Example</a></p>
+    <h1>Open Link in Full Window</h1>
+    <a href="https://www.bbc.com/news">BBC NEWS</a>
 </body>
 </html>
