@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        .details{
+    justify-content: space-between;
+    display: flex;
+}
+#small{
+    position: relative;
+    right: 30px;
+}
+#date{
+    position: relative;
+    left: 30px;
+}
+h1{
+    text-align: center;
+}
+img{
+    height: 150px;
+    width:auto;
+    color: blue;
+}
+.images{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="details">
+        <p id="date">12/15/24 5:04 PM</p>
+        <p id="small">Thumbnail Image Gallery</p>
+    </div>
+    <h1>Thumbnail Image Gallery</h1>
+    <div class="images">
+        <div>
+            <img src="https://www.whatsafterthemovie.com/images/blog/the-wild-robot-2024-explained.png" alt="">
+        </div>
+        <div>
+            <img src="https://photopxl.com/pxl-content/uploads/2021/01/Sunsets-1-1.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://composeclick.com/wp-content/uploads/2018/05/nature-1.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=" alt="">
+        </div>
+        <div id="image1">
+            <img src="" alt=" Image 3 Thumbnail">
+        </div>
+    </div>
+</body>
+</html>
