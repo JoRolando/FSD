@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1c sample</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        .details{
+    display: flex;
+    justify-content: space-between;
+}
+#small-heading{
+    position:relative;
+    right: 150px;
+}
+h1{
+    text-align: center;
+    margin-top:-5px;
+}
+img{
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+a{
+    text-decoration: none;
+    margin: 80px;
+}
+.profiles{.details{
+    display: flex;
+    justify-content: space-between;
+}
+#small-heading{
+    position:relative;
+    right: 150px;
+}
+h1{
+    text-align: center;
+    margin-top:-5px;
+}
+img{
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+a{
+    text-decoration: none;
+    margin: 80px;
+}
+.profiles{
+    text-align: center;
+    margin-top: 20px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image1{
+    position:relative;
+    left: 63px;
+}
+.image2{
+    position: relative;
+    right: 75px;
+}
+    text-align: center;
+    margin-top: 20px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image1{
+    position:relative;
+    left: 63px;
+}
+.image2{
+    position: relative;
+    right: 75px;
+}
+    </style>
+</head>
+<body>
+    <div class="details">
+        <p id="date">12/15/24 5:04 PM</p>
+        <p id="small-heading">Images and Links</p>
+    </div>
+    <h1>Profile Images</h1>
+    <div class="images">
+        <div class="image1">
+            <a href="https://www.google.co.in/" target="_blank">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_fLRU6u1Sa4V9RSs6HedOnvxyxLj1ykZvMQ&s" height="150px" alt="my-profile">
+            </a>
+        </div>
+        <div class="image2">
+            <a href="https://www.w3schools.com/ " target="_blank">
+                <img src="https://lh3.googleusercontent.com/proxy/7_eIfUoj4HgOLgNlP6DGlEZHv8rt6smjEaeTAlZVeeKLEqOcWDWNT3_lu8kZ5M8CNjSEY-OFSo9LsTVcxE9ZWYPemn1IzXEQRUmcffrmBewUyQUHpx15bCx8ySQfbgSohuuWE1c8FigRGiHIeg" height="150px" alt="my-profile">
+            </a>
+        </div>
+    </div>
+    <div class="profiles">
+        <a href="https://www.google.co.in/" target="_blank">My Profile</a>
+        <a href="#">Friend's Profile</a>
+    </div>
+</body>
+</html>
